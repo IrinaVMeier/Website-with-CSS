@@ -1,0 +1,197 @@
+.introphoto {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    float: left;
+    padding: 150px 20px 20px 40px;
+    border-radius: 30%;
+}
+
+.introtext {
+    font: bold 35px Tahoma sans-serif;
+    padding: 200px 90px 100px 20px;
+    display: flex;
+    text-align: center;
+}
+
+.quote {
+    font: italic 25px Tahoma sans-serif;
+    text-align: center;
+}
+
+.clr {
+    clear: both;
+}
+
+body {
+    background-color: #D1CBC6;	
+    font: normal 18px Tahoma sans-serif;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #C71585;
+}
+
+a:active {
+    color:#023F4A;
+}
+
+a:visited {
+    color:#D1CBC6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    background-color: #023F4A;
+    color:#D1CBC6;
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+}
+
+.button1 {
+    background-color: #023F4A;
+    color:#D1CBC6;
+    font: 25px Tahoma sans-serif;
+    padding: 15px;
+    margin: 0px 0px 0px 100px;
+    border: none;
+    text-align: center;
+}
+
+
+.button2 {
+    background-color: #023F4A;
+    color:#D1CBC6;
+    font: 20px Tahoma sans-serif;
+    padding: 10px 15px;
+    border: none;
+    float: right;
+}
+
+.box-1 {
+    background-color: #023F4A;
+    color:#D1CBC6;
+    border: 5px #C71585 solid;
+    border-width: 3px;
+    border-style: groove;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1, .box-2 h1, h1{
+    font-family: Tahoma sans-serif;
+    font-weight: 800px;
+    font-style: italic;
+    /*text-decoration: underline;*/
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.box-2 {
+    border: 5px dotted #023F4A;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0;
+}
+
+.block {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+	padding: 8px;
+}
+
+th {
+    background-color: #023F4A;
+    color:#C71585;
+}
+
+.every-odd tr:nth-child(odd) {
+    background-color:#cb6cc1;
+}
+
+.categories {
+    background-color: #023F4A;
+    color:#D1CBC6;
+    border: 5px #C71585 solid;
+    border-width: 3px;
+    border-style: groove;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    padding-left: 10px;
+    list-style-position: inside;
+    list-style-image: url("BooksResized.png")
+}
+
+.image {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0px 20px 20px 40px;
+}
+
+.box-3 {
+    background-color: #023F4A;
+    color:#D1CBC6;
+    font-size: 18px;
+    border: 5px #C71585 solid;
+    border-width: 3px;
+    border-style: groove;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box-4 {
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+#list {
+    padding: 50px;
+    padding-left: 10px; 
+    text-align: center;
+}
+
+.image2 {
+    height: 85px;    
+}
+
+.contact {
+    text-align: center;
+}
+
+.my-form {
+    padding: 20px;
+    text-align: center;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+    width: 80%;
+    height: 80px;
+}
